@@ -6,7 +6,7 @@ const connectDB = (url) => {
       useFindAndModify: false,
       useNewUrlParser: true,
       useUnifiedTopology: true,
-    }).then(()=> console.log('first'))
+    }).then(()=> console.log('Connected'))
     
 };
 
